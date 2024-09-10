@@ -139,13 +139,13 @@ export default {
 
 - Para pendurar o vue.js é necessário adicionar window.app = antes do create do vue createApp(App).mount('#app')
 
-## Whatch
+## Watch
 
 - É possível escutar alguma alteração em uma variável, para isso declare uma função com o mesmo nome da variável, assim:
 
 ```js
 export default {
-  whatch: {
+  watch: {
     nomeDaVariavel() {
       console.log("teste");
     },
